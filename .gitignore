@@ -14,9 +14,3 @@
 !var/SymfonyRequirements.php
 /vendor/
 /web/bundles/
-
-###> symfony/phpunit-bridge ###
-.phpunit
-.phpunit.result.cache
-/phpunit.xml
-###< symfony/phpunit-bridge ###
