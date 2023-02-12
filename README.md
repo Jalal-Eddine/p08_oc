@@ -1,6 +1,3 @@
-ToDoList
+ToDoList with Symfony
 ========
-
-Base du projet #8 : Améliorez un projet existant
-
-https://openclassrooms.com/projects/ameliorer-un-projet-existant-1
+[![SymfonyInsight](https://insight.symfony.com/projects/e5768b8b-2495-418a-ad31-f9232c04cbad/small.svg)](https://insight.symfony.com/projects/e5768b8b-2495-418a-ad31-f9232c04cbad)
