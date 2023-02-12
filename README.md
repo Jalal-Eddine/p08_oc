@@ -4,7 +4,7 @@ ToDoList with Symfony
 ## Env project development :
 ```
 - PHP : 8.2.1
-- Symfony : 5.4.20
+- Symfony : 5.4.20 LTS
 - Composer : 2.5.1
 - MariaDB : 10.4.22
 - Apache : 2.4.52
@@ -36,21 +36,26 @@ php bin/console doctrine:fixtures:load
 
 ## Credentials
 ```
-Admin: all permission : 
+Admin : 
 {
-    "username":"Chester.Dicki", 
-    "password":"123"
+    "username":"admin", 
+    "password":"Secert"
 }
-user: permission adapted to client need : 
+user1 : 
 {
-    "username":"Jonathon.Roob39", 
-    "password":"123"
+    "username":"user1", 
+    "password":"Secert"
+}
+user2 : 
+{
+    "username":"user2", 
+    "password":"Secert"
 }
 ```
 # Tester l'application
 
 
-## Inside `.env.test.local`, put your database connection:
+## Inside `.env.test`, put your database connection:
 ```
     DATABASE_URL="mysql://db_user:db_password@127.0.0.1:3306/db_name_test?serverVersion=5.7"
 ```
