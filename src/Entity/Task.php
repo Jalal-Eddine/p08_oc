@@ -101,10 +101,10 @@ class Task
         $this->isDone = $flag;
     }
 
-    public function isIsDone(): ?bool
-    {
-        return $this->isDone;
-    }
+    // public function isIsDone(): ?bool
+    // {
+    //     return $this->isDone;
+    // }
 
     public function setIsDone(bool $isDone): self
     {

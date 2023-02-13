@@ -1,5 +1,6 @@
 ToDoList with Symfony
 ========
+[![Codacy Badge](https://app.codacy.com/project/badge/Grade/e7125f64498e403ab3f0e2a5471fc1ed)](https://www.codacy.com/gh/Jalal-Eddine/p08_oc/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=Jalal-Eddine/p08_oc&amp;utm_campaign=Badge_Grade)
 
 ## Env project development :
 ```
