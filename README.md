@@ -55,7 +55,7 @@ user2 :
 # Tester l'application
 
 
-## Inside `.env.test`, put your database connection:
+## Inside `.env.test.local`, put your database connection:
 ```
     DATABASE_URL="mysql://db_user:db_password@127.0.0.1:3306/db_name_test?serverVersion=5.7"
 ```
@@ -63,6 +63,11 @@ user2 :
 ## Create you database :
 ```
     php bin/console doctrine:database:create --env=test
+```
+
+## create the tables/columns in the test database :
+```
+    php bin/console --env=test doctrine:schema:create
 ```
 
 ## Execute your test : 
