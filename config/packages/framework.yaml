@@ -9,7 +9,8 @@ framework:
     session:
         enabled: true
         handler_id: null
-        storage_factory_id: 'session.storage.factory.native'
+        storage_factory_id: session.storage.factory.php_bridge
+        # storage_factory_id: 'session.storage.factory.native'
         save_path: '%kernel.project_dir%/var/sessions/%kernel.environment%'
         cookie_secure: auto
         cookie_samesite: lax
@@ -19,3 +20,4 @@ framework:
     #fragments: true
     php_errors:
         log: true
+
