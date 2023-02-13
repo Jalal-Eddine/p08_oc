@@ -78,5 +78,5 @@ user2 :
 
 ## Generate a test coverage 
 ```
-    php bin/phpunit --coverage-html deliverables/test-coverage
+    php bin/phpunit --coverage-html livrables/test-coverage
 ```
